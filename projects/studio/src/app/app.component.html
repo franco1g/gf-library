@@ -1,0 +1,32 @@
+<div class="gf-background">
+  <h1>This is it man!!!</h1>
+  <gf-alerts></gf-alerts>
+  <mat-chip-listbox aria-label="Fish selection">
+    <mat-chip-option>One fish</mat-chip-option>
+    <mat-chip-option>Two fish</mat-chip-option>
+    <mat-chip-option color="accent" selected>Accent fish</mat-chip-option>
+    <mat-chip-option color="warn">Warn fish</mat-chip-option>
+  </mat-chip-listbox>
+
+  <mat-card class="example-card">
+    <mat-card-header >
+      <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+      <mat-card-title>Shiba Inu</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>This card has divider and indeterminate progress as footer</p>
+      <p>{{ longText }}</p>
+      <mat-divider></mat-divider>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions>
+    <mat-card-footer>
+      <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+    </mat-card-footer>
+  </mat-card>
+
+</div>
+
+<router-outlet></router-outlet>

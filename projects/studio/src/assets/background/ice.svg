@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2560px" height="1440px" viewBox="0 0 2560 1440" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>background / ice</title>
+    <defs>
+        <radialGradient cx="50%" cy="100%" fx="50%" fy="100%" r="100%" gradientTransform="translate(0.5, 1), scale(0.5625, 1), rotate(-90), scale(1, 0.9444), translate(-0.5, -1)" id="radialGradient-1">
+            <stop stop-color="#13252D" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.998634178" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="background-/-ice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="url(#radialGradient-1)" x="0" y="0" width="2560" height="1440"></rect>
+    </g>
+</svg>
