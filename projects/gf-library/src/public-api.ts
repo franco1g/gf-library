@@ -1,7 +1,6 @@
 /*
  * Public API Surface of gf-library
  */
-
 export * from './lib/alerts/alerts.component';
 export * from './lib/alerts/alerts.module';
 export * from './lib/badges/badges.component'
