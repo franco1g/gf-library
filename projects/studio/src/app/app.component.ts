@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'studio';
   longText: any;
+    protected readonly Date = Date;
 }

@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {AlertsModule} from "gf-library";
+import {AlertsModule, BadgesModule} from "gf-library";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatDatepickerModule} from "@angular/material/datepicker";
 import {MatChipsModule} from "@angular/material/chips";
@@ -26,7 +26,8 @@ import {MatProgressBarModule} from "@angular/material/progress-bar";
     MatCardModule,
     MatListModule,
     MatButtonModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    BadgesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
