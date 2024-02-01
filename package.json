@@ -7,8 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "all:build": "ng build gf-library; ng build studio",
-    "run:build": "ng build gf-library; ng serve studio"
+    "all:build": "ng build gf-library; ng build studio; ng serve",
+    "run:build": "ng build gf-library"
   },
   "private": true,
   "dependencies": {
